@@ -85,7 +85,7 @@ public class Trie {
             }
             current = node;
         }
-        //return true of current's endOfWord is true else return false.
+        //return true if current's endOfWord is true else return false.
         return current.endOfWord;
     }
 
